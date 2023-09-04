@@ -1,0 +1,433 @@
+html {
+  background-color: #050221 ;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+#title {
+  position: relative;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  color: #FFF;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  padding-left: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#title img.bg-img {
+  margin-top: 0; /* Remove margin-top for the image */
+  margin-left: -10px;
+  margin-right: -10px;
+}
+#demo {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+#title span {
+  background: #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-img{
+  width: 100vw;
+  margin-top: 100px;
+  margin-left: -10px;
+  margin-right: -10px;
+  overflow: hidden;
+  background-image: url("images/bg.png");
+  background-position: center top;
+  background-size: cover;
+
+}
+.img-header {
+  width: 100vw;
+  margin-top: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+  overflow: hidden;
+  background-image: url("images/schoolbg1.png");
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.4;
+}
+.content {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: justify;
+  position: relative; /* Add this line */
+  padding-top: 20px; /* Add some padding to create space between the image and text */
+}
+.content-left {
+  width: 70%; /* Adjust the width as needed */
+  float: left; /* Float the left content to the left */
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* CSS for the right content (image) */
+.content-right {
+  width: 20%; /* Adjust the width as needed */
+  float: left; /* Float the right content to the left */
+}
+
+/* Clear the floats to prevent layout issues */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.message {
+  background-color: #050221;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.rectangle {
+  height: 10px;
+  width: 110%;
+  margin-left: -10px;
+  background-color: rgb(210, 210, 210);
+  position: absolute;
+  bottom: 0;
+}
+
+.header {
+  position: relative; /* Ensure relative positioning for the .header element */
+  display: flex;
+  justify-content: center; /* Center horizontally within the .header */
+}
+
+.text-over-image {
+  position: absolute;
+  top: 60%; /* Center vertically relative to the .header */
+  left: 50%; /* Center horizontally relative to the .header */
+  transform: translate(-50%, -50%); /* Center using translate */
+  text-align: center; /* Center the text within its container */
+  color: white; /* Text color */
+  padding: 20px; /* Add some padding for better readability */
+  font-size: 32px;
+}
+.bg-image{
+  background-image: url('images/bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contact-heading{
+  color: white;
+  font-size:28px;
+  text-decoration: underline;
+}
+.contact-numbers{
+  color: white;
+  font-size:22px;
+  margin-top: -20px;
+}
+.bocs{
+  background-color: black;
+  opacity: 0.7;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin-top: 10%;
+  padding: 5px;
+}
+
+.bocs h1{
+  color: white;
+  font-family: arial;
+  font-size: 40px;
+}
+
+.bocs a{
+  color: rgb(0, 217, 255);
+  text-decoration: none;
+  font-family: arial;
+  font-size: 25px;
+}
+
+.bocs a:hover{
+  color: red;
+}
+/* .bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(120deg, #54afe6 50%, #fff 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+} */
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+
+nav {
+  margin: 27px auto 0;
+  position: relative;
+  width: 590px;
+  height: 50px;
+  background-color: #34495e;
+  border-radius: 8px;
+  font-size: 0;
+  font-family: sans-serif;
+  background: #2c3e50;
+}
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1) {
+  width: 100px;
+}
+a:nth-child(2) {
+  width: 110px;
+}
+a:nth-child(3) {
+  width: 100px;
+}
+a:nth-child(4) {
+  width: 160px;
+}
+a:nth-child(5) {
+  width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+  width: 100px;
+  left: 0;
+  background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+  width: 110px;
+  left: 100px;
+  background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+  width: 100px;
+  left: 210px;
+  background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+  width: 160px;
+  left: 310px;
+  background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+  width: 120px;
+  left: 470px;
+  background-color: #e67e22;
+}
+
+@media only screen and (max-width: 630px) {
+nav {
+  margin: 27px auto 0;
+  position: relative;
+  width: 470px;
+  height: 50px;
+  background-color: #34495e;
+  border-radius: 8px;
+  font-size: 0;
+  font-family: sans-serif;
+  background: #2c3e50;
+}
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1) {
+  width: 80px;
+}
+a:nth-child(2) {
+  width: 90px;
+}
+a:nth-child(3) {
+  width: 80px;
+}
+a:nth-child(4) {
+  width: 120px;
+}
+a:nth-child(5) {
+  width: 100px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+  width: 80px;
+  left: 0;
+  background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+  width: 90px;
+  left: 100px;
+  background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+  width: 80px;
+  left: 210px;
+  background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+  width: 120px;
+  left: 310px;
+  background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+  width: 100px;
+  left: 470px;
+  background-color: #e67e22;
+}
+}
+
+
+@media only screen and (max-width: 520px) {
+.ti1{
+  font-size: 35px;
+}
+
+nav {
+  margin: 27px auto 0;
+  position: relative;
+  width: 380px;
+  height: 50px;
+  background-color: #34495e;
+  border-radius: 8px;
+  font-size: 0;
+  font-family: sans-serif;
+  background: #2c3e50;
+}
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1) {
+  width: 70px;
+}
+a:nth-child(2) {
+  width: 75px;
+}
+a:nth-child(3) {
+  width: 70px;
+}
+a:nth-child(4) {
+  width: 100px;
+}
+a:nth-child(5) {
+  width: 60px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+  width: 70px;
+  left: 0;
+  background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+  width: 75px;
+  left: 100px;
+  background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+  width: 70px;
+  left: 210px;
+  background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+  width: 90px;
+  left: 310px;
+  background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+  width: 60px;
+  left: 470px;
+  background-color: #e67e22;
+}
+}
+
+
+
+@media only screen and (max-width: 380px) {
+.ti1{
+  font-size: 25px;
+}
+}
+
