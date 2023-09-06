@@ -26,12 +26,12 @@ html {
   align-items: center;
 }
 #title img.bg-img {
-  margin-top: 0; /* Remove margin-top for the image */
+  margin-top: 0; 
   margin-left: -10px;
   margin-right: -10px;
 }
 #demo {
-  margin-top: 20px; /* Adjust the margin as needed */
+  margin-top: 20px; 
 }
 #title span {
   background: #ffffff;
@@ -68,22 +68,21 @@ html {
   margin: 0 auto;
   margin-top: 30px;
   text-align: justify;
-  position: relative; /* Add this line */
-  padding-top: 20px; /* Add some padding to create space between the image and text */
+  position: relative; 
+  padding-top: 20px; 
 }
 .content-left {
-  width: 70%; /* Adjust the width as needed */
-  float: left; /* Float the left content to the left */
-  padding: 20px; /* Add padding for spacing */
+  width: 70%; 
+  float: left; 
+  padding: 20px; 
 }
 
-/* CSS for the right content (image) */
+
 .content-right {
-  width: 20%; /* Adjust the width as needed */
-  float: left; /* Float the right content to the left */
+  width: 20%; 
+  float: left;
 }
 
-/* Clear the floats to prevent layout issues */
 .content:after {
   content: "";
   display: table;
@@ -107,19 +106,19 @@ html {
 }
 
 .header {
-  position: relative; /* Ensure relative positioning for the .header element */
+  position: relative; 
   display: flex;
-  justify-content: center; /* Center horizontally within the .header */
+  justify-content: center; 
 }
 
 .text-over-image {
   position: absolute;
-  top: 60%; /* Center vertically relative to the .header */
-  left: 50%; /* Center horizontally relative to the .header */
-  transform: translate(-50%, -50%); /* Center using translate */
-  text-align: center; /* Center the text within its container */
-  color: white; /* Text color */
-  padding: 20px; /* Add some padding for better readability */
+  top: 60%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  text-align: center; 
+  color: white; 
+  padding: 20px; 
   font-size: 32px;
 }
 .bg-image{
@@ -163,26 +162,7 @@ html {
 .bocs a:hover{
   color: red;
 }
-/* .bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(120deg, #54afe6 50%, #fff 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
 
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
-
-.bg3 {
-  animation-duration:5s;
-} */
 
 
 @keyframes slide {
