@@ -5,83 +5,6 @@ background-attachment: fixed;
   overflow: hidden;
   overflow-y: scroll;
 }
-
-/* #title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  color: #FFF;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 10px;
-  padding-left: 10px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#title span {
-  background: #ffffff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.img-header {
-  width: 100vw;
-  margin-top: 50px;
-  margin-left: -10px;
-  margin-right: -10px;
-  overflow: hidden;
-  background-image: url("images/schoolbg1.png");
-  background-position: center top;
-  background-size: cover;
-  opacity: 0.4;
-}
-.content {
-  color: white;
-  text-align: center;
-  font-size: 18px;
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 30px;
-  text-align: justify
-}
-
-.rectangle {
-  height: 10px;
-  width: 110%;
-  margin-left: -10px;
-  background-color: rgb(210, 210, 210);
-  position: absolute;
-  bottom: 0;
-}
-
-.header {
-  position: relative; /* Ensure relative positioning for the .header element 
-  display: flex;
-  justify-content: center; /* Center horizontally within the .header 
-}
-
-.text-over-image {
-  position: absolute;
-  top: 60%; /* Center vertically relative to the .header 
-  left: 50%; /* Center horizontally relative to the .header 
-  transform: translate(-50%, -50%); /* Center using translate 
-  text-align: center; /* Center the text within its container 
-  color: white; /* Text color 
-  padding: 20px; /* Add some padding for better readability 
-  font-size: 24px;
-}
-.bg-image{
-  background-image: url('images/bg.png');
-  background-size: cover;
-  background-attachment: fixed;
-} */
 .contact-heading{
   color: white;
   font-size:28px;
@@ -119,26 +42,7 @@ background-attachment: fixed;
 .bocs a:hover{
   color: red;
 }
-/* .bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(120deg, #54afe6 50%, #fff 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
 
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
-
-.bg3 {
-  animation-duration:5s;
-} */
 
 
 @keyframes slide {
