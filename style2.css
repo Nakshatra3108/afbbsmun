@@ -46,19 +46,19 @@ html {
 }
 
 .header {
-  position: relative; /* Ensure relative positioning for the .header element */
+  position: relative; 
   display: flex;
-  justify-content: center; /* Center horizontally within the .header */
+  justify-content: center; 
 }
 
 .text-over-image {
   position: absolute;
-  top: 60%; /* Center vertically relative to the .header */
-  left: 50%; /* Center horizontally relative to the .header */
-  transform: translate(-50%, -50%); /* Center using translate */
-  text-align: center; /* Center the text within its container */
-  color: white; /* Text color */
-  padding: 20px; /* Add some padding for better readability */
+  top: 60%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  text-align: center; 
+  color: white; 
+  padding: 20px; 
   font-size: 24px;
 }
 nav {
@@ -136,26 +136,7 @@ nav .start-Resources, nav a:nth-child(5):hover~.animation {
 
 
 
-/* .bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(120deg, #54afe6 50%, #fff 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
 
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
-
-.bg3 {
-  animation-duration:5s;
-} */
 
 
 @keyframes slide {
